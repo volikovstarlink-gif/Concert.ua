@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "TC-A11Y-001",
+    "title": "Page has a valid lang attribute",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-002",
+    "title": "Page has a main heading (h1)",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-003",
+    "title": "Images have alt attributes",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-004",
+    "title": "Page title is not empty",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-005",
+    "title": "Links have discernible text",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-006",
+    "title": "Form inputs have associated labels or placeholders",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-007",
+    "title": "Page is navigable with keyboard (Tab key)",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-008",
+    "title": "Color contrast — text is readable",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-009",
+    "title": "Main landmark role exists",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-A11Y-010",
+    "title": "Buttons have proper role",
+    "section": "Доступність / a11y (Accessibility)",
+    "file": "accessibility.spec.ts"
+  },
+  {
+    "id": "TC-ACC-001",
+    "title": "Profile page loads successfully",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-002",
+    "title": "Login page loads without server error",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-003",
+    "title": "Profile page has valid title",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-004",
+    "title": "Tickets page loads from profile",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-005",
+    "title": "Certificates page loads from profile",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-006",
+    "title": "Preferences/notifications page loads",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-007",
+    "title": "Wishlist page loads",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-008",
+    "title": "Profile link accessible from header",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-009",
+    "title": "Profile page loads with valid HTTP status",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-010",
+    "title": "Profile page is accessible via keyboard navigation",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-011",
+    "title": "News/updates page loads",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-ACC-012",
+    "title": "Profile page uses HTTPS",
+    "section": "Особистий кабінет (Personal Account)",
+    "file": "account.spec.ts"
+  },
+  {
+    "id": "TC-CART-001",
+    "title": "Event page has buy/date-selection button",
+    "section": "Кошик та оформлення (Cart & Purchase Flow)",
+    "file": "cart.spec.ts"
+  },
+  {
+    "id": "TC-CART-002",
+    "title": "Profile tickets page loads for authenticated user",
+    "section": "Кошик та оформлення (Cart & Purchase Flow)",
+    "file": "cart.spec.ts"
+  },
+  {
+    "id": "TC-CART-003",
+    "title": "Profile tickets page has valid title",
+    "section": "Кошик та оформлення (Cart & Purchase Flow)",
+    "file": "cart.spec.ts"
+  },
+  {
+    "id": "TC-CART-004",
+    "title": "Event buy button is clickable",
+    "section": "Кошик та оформлення (Cart & Purchase Flow)",
+    "file": "cart.spec.ts"
+  },
+  {
+    "id": "TC-CART-005",
+    "title": "Profile certificates page loads",
+    "section": "Кошик та оформлення (Cart & Purchase Flow)",
+    "file": "cart.spec.ts"
+  },
+  {
+    "id": "TC-CART-006",
+    "title": "Header profile section is visible",
+    "section": "Кошик та оформлення (Cart & Purchase Flow)",
+    "file": "cart.spec.ts"
+  },
+  {
+    "id": "TC-CART-007",
+    "title": "Gift certificate event page loads",
+    "section": "Кошик та оформлення (Cart & Purchase Flow)",
+    "file": "cart.spec.ts"
+  },
+  {
+    "id": "TC-CART-008",
+    "title": "Event page maintains state after reload",
+    "section": "Кошик та оформлення (Cart & Purchase Flow)",
+    "file": "cart.spec.ts"
+  },
+  {
+    "id": "TC-CF-001",
+    "title": "Genre sub-filter tabs are displayed (Поп, Рок, Класика, etc.)",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-002",
+    "title": "\"Всі\" genre tab links to main concerts page",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-003",
+    "title": "Clicking \"Рок\" genre tab navigates to rock sub-page",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-004",
+    "title": "Rock sub-genre page has correct h1",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-005",
+    "title": "Filter button is visible on catalog page",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-006",
+    "title": "Sort dropdown is present on catalog page",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-007",
+    "title": "Event card shows price information",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-008",
+    "title": "Event card shows date information",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-009",
+    "title": "Event card shows venue/city information",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-010",
+    "title": "Event card has image",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-011",
+    "title": "Theater catalog loads with events",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CF-012",
+    "title": "Kids catalog loads with events",
+    "section": "Каталог — фільтри та сортування (Catalog Filters & Sorting)",
+    "file": "catalog-filters.spec.ts"
+  },
+  {
+    "id": "TC-CAT-001",
+    "title": "Catalog page loads and displays events",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-002",
+    "title": "Category page title (h1) is displayed",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-003",
+    "title": "Concert category page loads correctly",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-004",
+    "title": "Theater category page loads correctly",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-005",
+    "title": "Event card displays content and is an anchor link",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-006",
+    "title": "Clicking event card navigates to event detail page",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-007",
+    "title": "Multiple event cards are displayed in catalog",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-008",
+    "title": "Breadcrumb navigation is present on catalog page",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-009",
+    "title": "Standup/humor category loads",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-010",
+    "title": "Festival category loads",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CAT-011",
+    "title": "Catalog page has valid meta title",
+    "section": "Каталог подій (Event Catalog)",
+    "file": "catalog.spec.ts"
+  },
+  {
+    "id": "TC-CP-001",
+    "title": "Venue list page loads with title",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-002",
+    "title": "Artist list page loads with title",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-003",
+    "title": "Archive page loads with title",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-004",
+    "title": "About page loads with content",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-005",
+    "title": "Team page loads",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-006",
+    "title": "Ticket offices page loads",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-007",
+    "title": "Delivery page loads",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-008",
+    "title": "Venue detail page (Origin Stage) loads with events",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-009",
+    "title": "Venue detail page shows event listings",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-010",
+    "title": "Metacard collection page loads",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-011",
+    "title": "Metacard page contains event cards",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-012",
+    "title": "Charity page loads",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-013",
+    "title": "Offer/terms page has content",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-CP-014",
+    "title": "FAQ page has questions and answers",
+    "section": "Контентні сторінки (Content & Info Pages)",
+    "file": "content-pages.spec.ts"
+  },
+  {
+    "id": "TC-FT-001",
+    "title": "Cookie banner appears on first visit",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-002",
+    "title": "Cookie banner has \"Прийняти все\" button",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-003",
+    "title": "Cookie banner has \"Відхилити\" button",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-004",
+    "title": "Cookie banner has cookie type checkboxes",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-005",
+    "title": "Clicking \"Прийняти все\" hides cookie banner",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-006",
+    "title": "Page contains social media links (Facebook, Instagram, etc.)",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-007",
+    "title": "Page contains phone number links",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-008",
+    "title": "Footer shows copyright text",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-009",
+    "title": "Footer contains payment logos (Visa, Mastercard)",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-010",
+    "title": "Footer \"Архів\" link works",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-011",
+    "title": "Footer \"Список майданчиків\" link works",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-FT-012",
+    "title": "Footer \"Список артистів\" link works",
+    "section": "Cookie банер та Футер (Cookie Banner & Footer)",
+    "file": "cookie-footer.spec.ts"
+  },
+  {
+    "id": "TC-ED-001",
+    "title": "Artist section is displayed with performer name",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-002",
+    "title": "Artist section contains performer image",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-003",
+    "title": "Reviews section \"Враження глядачів\" exists",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-004",
+    "title": "\"Оцінити\" button is present in reviews section",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-005",
+    "title": "Related events section \"Також може зацікавити\" exists",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-006",
+    "title": "Related events section contains event cards",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-007",
+    "title": "Like button is present on event page",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-008",
+    "title": "Share \"Поділитись\" button is present",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-009",
+    "title": "\"БІЛЬШЕ ІНФО\" description expand link exists",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-010",
+    "title": "Sticky buy button \"ОБРАТИ ДАТУ І ЧАС\" is at page bottom",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-011",
+    "title": "Event page shows venue name and address",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-012",
+    "title": "Event page has category tags (Рок, Поп, Концерти)",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-013",
+    "title": "Spotify embed widget loads on event page",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-ED-014",
+    "title": "Event with single date loads correctly (/uk/event/ path)",
+    "section": "Картка події — деталі (Event Page Details)",
+    "file": "event-details.spec.ts"
+  },
+  {
+    "id": "TC-EV-001",
+    "title": "Event page displays event title (h1)",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-002",
+    "title": "Event page has event-title element in DOM",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-003",
+    "title": "Event page displays date information",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-004",
+    "title": "Event page displays event image",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-005",
+    "title": "Buy/date selection button is present",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-006",
+    "title": "Event title text is non-empty",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-007",
+    "title": "Event page has valid meta title",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-008",
+    "title": "Event page URL matches expected pattern",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-009",
+    "title": "Event image has valid src attribute",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-010",
+    "title": "Share button exists on event page",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-011",
+    "title": "Single-date event page loads correctly",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-EV-012",
+    "title": "Event page loads without server errors",
+    "section": "Картка події (Event Detail Page)",
+    "file": "event.spec.ts"
+  },
+  {
+    "id": "TC-HS-001",
+    "title": "Hero slider has navigation dots",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-002",
+    "title": "Hero slider dots are clickable",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-003",
+    "title": "\"Топ подій у Києві\" section is displayed",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-004",
+    "title": "\"Топ подій\" section contains event cards",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-005",
+    "title": "Date filter \"Сьогодні\" button is present",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-006",
+    "title": "Date filter \"Завтра\" button is present",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-007",
+    "title": "Date filter \"Цього вікенду\" button is present",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-008",
+    "title": "\"Обрати період\" date picker button is present",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-009",
+    "title": "Category radio tabs are displayed (Концерти, Театр, etc.)",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-010",
+    "title": "\"Рекомендації для вас\" section is displayed",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-011",
+    "title": "Recommendation cards contain event info (image, title, price)",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-012",
+    "title": "\"Нове у продажу\" section exists",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-013",
+    "title": "\"Популярне у Києві\" metacard section exists",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-014",
+    "title": "Venue sections display on home page (Origin Stage, МЦКМ)",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-015",
+    "title": "\"Всі події\" button is present",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HS-016",
+    "title": "Carousel scroll buttons exist on home page",
+    "section": "Головна сторінка — секції (Home Page Sections)",
+    "file": "home-sections.spec.ts"
+  },
+  {
+    "id": "TC-HP-001",
+    "title": "Home page loads successfully with HTTP 200",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-002",
+    "title": "Logo is visible on the home page",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-003",
+    "title": "Main navigation menu is displayed",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-004",
+    "title": "Search icon is visible in header",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-005",
+    "title": "Main banner/slider is displayed",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-006",
+    "title": "Event cards are displayed on the home page",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-007",
+    "title": "Footer section is present",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-008",
+    "title": "Profile/account button is accessible",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-009",
+    "title": "Clicking logo navigates to home page",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-010",
+    "title": "Page title contains relevant text",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-011",
+    "title": "Event cards are clickable and navigate to event page",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-012",
+    "title": "Header section is present at top of page",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-HP-013",
+    "title": "Category navigation links are present in menu",
+    "section": "Головна сторінка (Home Page)",
+    "file": "home.spec.ts"
+  },
+  {
+    "id": "TC-L10N-001",
+    "title": "Default page language is Ukrainian",
+    "section": "Локалізація / і18n (Localization)",
+    "file": "localization.spec.ts"
+  },
+  {
+    "id": "TC-L10N-002",
+    "title": "Page content contains Ukrainian text",
+    "section": "Локалізація / і18n (Localization)",
+    "file": "localization.spec.ts"
+  },
+  {
+    "id": "TC-L10N-003",
+    "title": "Language switcher links are present",
+    "section": "Локалізація / і18n (Localization)",
+    "file": "localization.spec.ts"
+  },
+  {
+    "id": "TC-L10N-004",
+    "title": "Ukrainian currency format (₴/грн) used for prices",
+    "section": "Локалізація / і18n (Localization)",
+    "file": "localization.spec.ts"
+  },
+  {
+    "id": "TC-L10N-005",
+    "title": "Date format follows Ukrainian conventions",
+    "section": "Локалізація / і18n (Localization)",
+    "file": "localization.spec.ts"
+  },
+  {
+    "id": "TC-L10N-006",
+    "title": "UTF-8 encoding is declared",
+    "section": "Локалізація / і18n (Localization)",
+    "file": "localization.spec.ts"
+  },
+  {
+    "id": "TC-L10N-007",
+    "title": "UI buttons have Ukrainian labels",
+    "section": "Локалізація / і18n (Localization)",
+    "file": "localization.spec.ts"
+  },
+  {
+    "id": "TC-L10N-008",
+    "title": "City names display in Ukrainian",
+    "section": "Локалізація / і18n (Localization)",
+    "file": "localization.spec.ts"
+  },
+  {
+    "id": "TC-NAV-001",
+    "title": "Hamburger menu button opens side menu",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-002",
+    "title": "Side menu contains category links",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-003",
+    "title": "Nav link \"Концерти\" navigates to concerts catalog",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-004",
+    "title": "Nav link \"Театр\" navigates to theater catalog",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-005",
+    "title": "Nav link \"Стендап\" navigates to humor catalog",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-006",
+    "title": "Nav link \"Дітям\" navigates to kids catalog",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-007",
+    "title": "Nav link \"Танці\" navigates to dance catalog",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-008",
+    "title": "City selector shows city name \"Київ\"",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-009",
+    "title": "Language switch links exist (uk/en)",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-010",
+    "title": "English language link navigates to EN version",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-011",
+    "title": "Breadcrumbs visible on catalog page",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-012",
+    "title": "Breadcrumbs link navigates back to parent",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-013",
+    "title": "Header remains visible on scroll",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-NAV-014",
+    "title": "Support chat button is present",
+    "section": "Навігація (Navigation & Header)",
+    "file": "navigation.spec.ts"
+  },
+  {
+    "id": "TC-PAY-001",
+    "title": "Event page loads over HTTPS",
+    "section": "Оплата (Payment)",
+    "file": "payment.spec.ts"
+  },
+  {
+    "id": "TC-PAY-002",
+    "title": "Buy button present on event page for active event",
+    "section": "Оплата (Payment)",
+    "file": "payment.spec.ts"
+  },
+  {
+    "id": "TC-PAY-003",
+    "title": "Event page displays price info",
+    "section": "Оплата (Payment)",
+    "file": "payment.spec.ts"
+  },
+  {
+    "id": "TC-PAY-004",
+    "title": "Payment info page loads",
+    "section": "Оплата (Payment)",
+    "file": "payment.spec.ts"
+  },
+  {
+    "id": "TC-PAY-005",
+    "title": "Refund policy page loads",
+    "section": "Оплата (Payment)",
+    "file": "payment.spec.ts"
+  },
+  {
+    "id": "TC-PAY-006",
+    "title": "Offer/terms page loads",
+    "section": "Оплата (Payment)",
+    "file": "payment.spec.ts"
+  },
+  {
+    "id": "TC-PAY-007",
+    "title": "FAQ page loads",
+    "section": "Оплата (Payment)",
+    "file": "payment.spec.ts"
+  },
+  {
+    "id": "TC-PAY-008",
+    "title": "Delivery info page loads",
+    "section": "Оплата (Payment)",
+    "file": "payment.spec.ts"
+  },
+  {
+    "id": "TC-RES-001",
+    "title": "Home page renders on mobile viewport (375px)",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-002",
+    "title": "Home page renders on tablet viewport (768px)",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-003",
+    "title": "Hamburger menu button visible on mobile",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-004",
+    "title": "No horizontal scroll on mobile viewport",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-005",
+    "title": "Header logo visible on mobile",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-006",
+    "title": "Event cards are displayed on mobile",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-007",
+    "title": "Footer is visible on mobile after scrolling",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-008",
+    "title": "Page content adjusts between viewport sizes",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-009",
+    "title": "Touch-friendly tap targets on mobile",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-RES-010",
+    "title": "Viewport meta tag is present",
+    "section": "Адаптивність / Мобайл (Responsive / Mobile)",
+    "file": "responsive.spec.ts"
+  },
+  {
+    "id": "TC-SR-001",
+    "title": "Search icon is visible in the header",
+    "section": "Пошук (Search)",
+    "file": "search.spec.ts"
+  },
+  {
+    "id": "TC-SR-002",
+    "title": "Search container is present in header",
+    "section": "Пошук (Search)",
+    "file": "search.spec.ts"
+  },
+  {
+    "id": "TC-SR-003",
+    "title": "Search input exists with correct attributes",
+    "section": "Пошук (Search)",
+    "file": "search.spec.ts"
+  },
+  {
+    "id": "TC-SR-004",
+    "title": "Clicking search icon activates search input",
+    "section": "Пошук (Search)",
+    "file": "search.spec.ts"
+  },
+  {
+    "id": "TC-SR-005",
+    "title": "Search input accepts Ukrainian characters",
+    "section": "Пошук (Search)",
+    "file": "search.spec.ts"
+  },
+  {
+    "id": "TC-SR-006",
+    "title": "Search input can be cleared",
+    "section": "Пошук (Search)",
+    "file": "search.spec.ts"
+  },
+  {
+    "id": "TC-SR-007",
+    "title": "Search input handles special characters",
+    "section": "Пошук (Search)",
+    "file": "search.spec.ts"
+  },
+  {
+    "id": "TC-SR-008",
+    "title": "Multiple search queries work sequentially",
+    "section": "Пошук (Search)",
+    "file": "search.spec.ts"
+  }
+]
