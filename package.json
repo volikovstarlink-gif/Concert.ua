@@ -1,0 +1,17 @@
+{
+  "name": "concert-ua-tests",
+  "version": "1.0.0",
+  "description": "Playwright E2E test suite for concert.ua",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "HEADLESS=false npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "csv-parse": "^5.6.0",
+    "typescript": "^5.6.0"
+  }
+}
